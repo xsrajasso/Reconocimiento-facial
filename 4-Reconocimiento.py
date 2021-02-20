@@ -1,7 +1,7 @@
 import cv2
 import os
 
-dataPath = 'C:/Users/Gaby/Desktop/Reconocimiento Facial/Data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'D:\Israel\Hackaton\Reconocimiento-facial\datos'
 imagePaths = os.listdir(dataPath)
 print('imagePaths=',imagePaths)
 
