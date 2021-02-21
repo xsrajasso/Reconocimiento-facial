@@ -6,7 +6,7 @@ import imutils
 print("Escribe tu nombre completo")
 nombre = input()
 personName = nombre
-dataPath = 'D:\Israel\Hackaton\Testing\datos' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'D:\Israel\Hackaton\Reconocimiento-facial\datos' #Cambia a la ruta donde hayas almacenado Data
 personPath = dataPath + '/' + personName
 
 if not os.path.exists(personPath):
@@ -14,7 +14,7 @@ if not os.path.exists(personPath):
 	os.makedirs(personPath)
 
 #cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
-cap = cv2.VideoCapture('Video.mp4')
+cap = cv2.VideoCapture('Videoregina.mp4')
 
 faceClassif = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
 count = 0

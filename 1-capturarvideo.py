@@ -5,7 +5,7 @@ captura = cv2.VideoCapture(0)
 ancho = 640
 alto = 480
 codigo = cv2.VideoWriter_fourcc(*'DIVX')
-salida = cv2.VideoWriter('Video.mp4', codigo, 20, (ancho, alto))
+salida = cv2.VideoWriter('Videoisra.mp4', codigo, 20, (ancho, alto))
 
 while True:
     ret, video = captura.read()
