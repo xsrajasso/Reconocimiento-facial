@@ -3,8 +3,8 @@ import os
 import imutils
 
 
-print("Escribe tu primer nombre")
-name1 = input()
+#print("Escribe tu primer nombre")
+#name1 = input()
 
 print("Escribe tu primer nombre y primer apellido")
 name2 = input()
