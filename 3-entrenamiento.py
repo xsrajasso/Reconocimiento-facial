@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-dataPath = 'D:\Israel\Hackaton\Testing\datos' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'D:\Israel\Hackaton\Reconocimiento-facial\datos' #Cambia a la ruta donde hayas almacenado Data
 peopleList = os.listdir(dataPath)
 print('Lista de personas: ', peopleList)
 
